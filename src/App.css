@@ -1,20 +1,59 @@
 .App {
   text-align: center;
+  background:url(../public/image/bg.jpg) fixed no-repeat;
+  background-size: cover;
+  background-color: #222233;
+  color:white;
+}
+
+h6,sub{
+  font-size: 1.2em;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 5s linear;
   height: 80px;
 }
 
 .App-header {
-  background-color: #222;
+  position:relative;
+  background-color: black;
   height: 150px;
   padding: 20px;
   color: white;
 }
 
+input, textarea{
+
+  background: no-repeat 10px 6px #333;
+  color: #ccc;
+  width: 150px;
+  padding: 6px 15px 6px 35px;
+  border-radius: 25px;
+  /*box-shadow: 0 1px 0 #ccc inset;*/
+  transition:500ms all ease;
+  }
+#text5:hover{
+  width:180px;
+}
+
+hr {
+  border: 0;
+  height: 87px;
+  background-image: url(../public/image/type_2.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: 50%;
+  margin-left: 33%
+}
+
 .App-intro {
+  background:rgba(53,43,35,0.45);
+  border-radius: 25px;
+  width:50%;
+  text-align: center;
+  margin-left:25%; 
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;;
   font-size: large;
 }
 
