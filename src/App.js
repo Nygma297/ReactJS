@@ -56,8 +56,9 @@ class App extends Component {
 			{/*Synthetic event normalization*/}
 	        <hr />
     	    <p className="App-intro">
-        		<u><h1>Synthetic event system Normaliazation</h1></u>
+        		<u><h1>Synthetic event system Normalization</h1></u>
 				<textarea 
+					placeholder="Event changes"
 					onKeyPress={this.update} 
 					onCopy={this.update} 
 					onPaste={this.update} 
@@ -66,7 +67,7 @@ class App extends Component {
 					onBlur={this.update} 
 					onDoubleClick={this.update} 
 					onChange={this.update.bind(this)}
-					cols="30" rows="0" />
+					cols="0" rows="0" />
 				<h6>Event Change will occur here: {this.state.currentEvent}<br/></h6>
     	    </p>
 			{/*Lifecycle methods*/}
